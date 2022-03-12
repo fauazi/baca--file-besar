@@ -21,9 +21,5 @@ files = [
         '9.txt'
 ]
 
-count = 1 
-
 for file in files:
-    count += 1
     baca_text(file)
-    (f'file ke {count} sudah di baca *_*')
